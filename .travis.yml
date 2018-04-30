@@ -1,8 +1,8 @@
 language: python
 
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.40.2/hugo_0.40.2_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
 
 install:
   - pip install Pygments 
