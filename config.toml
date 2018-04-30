@@ -1,0 +1,37 @@
+baseurl = "http://blog.ryanjackman.com/"
+languageCode = "en-us"
+metadataformat = "yaml"
+title = "Blog"
+theme = "hugo-alabaster-theme"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+	name = "Ryan Jackman"
+	description = "A dev blog / place for notes."
+
+	github_user   = "ryanjackman"
+	github_repo   = ""
+	github_banner = false
+
+	custom_css = []
+	custom_js  = []
+
+	highlightjs = "css/highlight.css"
+	favicon = "favicon.ico"
+
+[params.sidebar]
+	logo = "favicon.ico"
+
+
+	github_button  = false
+	travis_button  = false
+	codecov_button = false
+	gratipay = ""
+
+	show_relations = false
+
+[params.footer]
+	copyright = "Ryan Jackman"
+	show_powered_by = true
