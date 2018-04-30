@@ -1,7 +1,10 @@
 language: python
 
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y hugo
+
 install:
-  - sudo apt-get install hugo
   - pip install Pygments 
 
 script:
